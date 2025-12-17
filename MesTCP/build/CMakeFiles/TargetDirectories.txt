@@ -1,0 +1,5 @@
+D:/code/cprojectchat/MesTCP/build/CMakeFiles/ChatClient.dir
+D:/code/cprojectchat/MesTCP/build/CMakeFiles/edit_cache.dir
+D:/code/cprojectchat/MesTCP/build/CMakeFiles/rebuild_cache.dir
+D:/code/cprojectchat/MesTCP/build/CMakeFiles/ChatClient_autogen_timestamp_deps.dir
+D:/code/cprojectchat/MesTCP/build/CMakeFiles/ChatClient_autogen.dir

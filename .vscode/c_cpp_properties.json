@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "D:/code/cprojectchat/MesTCP/include",
+                "D:/Boost/include/boost-1_90",
+                "D:/code/cprojectchat/MesTCP/server/include",
+                "D:/code/cprojectchat/MesTCP/client/include",
+                "D:/Programs/Qt/6.10.1/mingw_64/include",
+                "D:/Programs/Qt/6.10.1/mingw_64/include/QtWidgets",
+                "D:/Programs/Qt/6.10.1/mingw_64/include/QtCore",
+                "D:/Programs/Qt/6.10.1/mingw_64/include/QtGui",
+                "D:/Programs/Qt/6.10.1/mingw_64/mkspecs"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "C:/Users/k3t0r/gcc/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
