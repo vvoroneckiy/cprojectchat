@@ -133,7 +133,14 @@ public:
 
     // Network client
     client = std::make_unique<user_detail::Client>();
-    client->connect("127.0.0.1", 9030);
+    // Ask for server address (default localhost). This allows connecting to a server on another machine in the same LAN.
+    {
+      bool okHost = false;
+      QString host = QInputDialog::getText(this, "Server", "Server IP or hostname:", QLineEdit::Normal, QString("127.0.0.1"), &okHost);
+      if (!okHost || host.isEmpty())
+        host = QString("127.0.0.1");
+      client->connect(host.toStdString(), 9030);
+    }
 
     // Ask for user name
     bool ok = false;
